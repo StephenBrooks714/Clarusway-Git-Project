@@ -141,11 +141,11 @@
             </div>
             <div class="content-row" id="contact">
                 <div class="content-item" style="margin: 12px;">
-                    <form action="">
-                        <input type="text" placeholder="Name" class="form-control" required />
-                        <input type="text" placeholder="Subject" class="form-control" required />
-                        <input type="text" placeholder="Email" class="form-control" required />
-                        <textarea name="text" required placeholder="Your Message" class="form-control" rows="5"></textarea>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <input type="text" name="name" placeholder="Name" class="form-control" required />
+                        <input type="text" name="subject" placeholder="Subject" class="form-control" required />
+                        <input type="email" name="enail" placeholder="Email" class="form-control" required />
+                        <textarea name="text" name="message" required placeholder="Your Message" class="form-control" rows="5"></textarea>
                         <button class="btn btn-outline-white rounded" type="submit">Send Message</button>
                     </form>
                 </div>
