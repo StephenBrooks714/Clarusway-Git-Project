@@ -4,34 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8791fcf073.js" crossorigin="anonymous"></script>
+    <!-- external css -->
     <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
-    <header>
-        <nav class="navBar">
+    <header id="top">
+        <nav class="navBar" id="nav1">
             <ul class="nav-left">
                 <li class="nav-item">
-                    <a class="nav-link" href="">link</a>
+                    <a class="nav-link" href="#top">home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">link</a>
+                    <a class="nav-link" href="#about">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">link</a>
+                    <a class="nav-link" href="#projects">projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">link</a>
+                    <a class="nav-link" href="#contact">contact</a>
                 </li>
             </ul>
             <ul class="nav-right">
                 <li class="nav-item">
-                    <a class="nav-link" href="">link</a>
+                    <a class="nav-link" href="https://github.com/StephenBrooks714" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">link</a>
+                    <a class="nav-link" href="https://www.facebook.com/krammer439298/" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">link</a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/stephen-brooks-067075235/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -39,6 +53,8 @@
             <p>Hi, I'm</p>
             <h1 class="title">Stephen Brooks</h1>
             <h2 class="sub-title">I'm a student with Clarusway and I am in a fullstack web developer course</h2>
+            <br>
+            <a href="" class="btn btn-outline-white rounded">Learn About Me</a>
         </section>
     </header>
     <main>
@@ -47,31 +63,47 @@
             <div class="grid-row">
                 <div class="grid-item">
                     <div class="card">
-                        <h4>Html5</h4>
+                        <h4>Git Cli</h4>
+                        <p>
+                            Command line for interacting with repostories in Github.
+                        </p>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="card">
                         <h4>Html5</h4>
+                        <p>
+                            For constructing webpages and laying out in readable format.
+                        </p>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="card">
-                        <h4>Html5</h4>
+                        <h4>Css3</h4>
+                        <p>
+                            For styling pages and placing content to make it repsonsive.
+                        </p>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="card">
-                        <h4>Html5</h4>
+                        <h4>JavaScript</h4>
+                        <p>
+                            Providing fuctionality on pages, events, form validations, and servers.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="content-row">
+            <div class="content-row" id="about">
                 <div class="content-item">
-                    <h5>Title</h5>
+                    <h5>I'm A Good Fit For All Devices</h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquam doloremque maiores provident, reiciendis vel animi nobis repellendus enim recusandae mollitia minima nulla quas temporibus quisquam numquam neque minus est.
+                        I build websites to be responsive with Css properties such as Flex Box, Grid, and Media Queries. 
+                        Those were learned from w3schools and Clarusway. As I continue with the school, I will build more 
+                        onto what I have learned and create more apps with advanced Css & JavaScript code.
                     </p>
+                    <br>
+                    <a href="" class="btn btn-outline-white rounded">See My Designs</a>
                 </div>
                 <div class="content-item">
                     <img src="https://images.unsplash.com/photo-1546146830-2cca9512c68e?q=80&w=1180&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
@@ -79,7 +111,62 @@
                         alt="Title" />
                 </div>
             </div>
+            <div id="projects"></div>
+            <h4 class="text-center sub-title" style="margin-top: 60px;">Projects that I've done</h4>
+            <div class="grid-row text-center">
+                <div class="grid-item" style="margin: 5px;">
+                    <img src="https://placehold.co/600x400" class="img-fluid" alt="img" />
+                </div>
+                <div class="grid-item" style="margin: 5px;">
+                    <img src="https://placehold.co/600x400" class="img-fluid" alt="img" />
+                </div>
+                <div class="grid-item" style="margin: 5px;">
+                    <img src="https://placehold.co/600x400" class="img-fluid" alt="img" />
+                </div>
+                <div class="grid-item" style="margin: 5px;">
+                    <img src="https://placehold.co/600x400" class="img-fluid" alt="img" />
+                </div>
+            </div>
+            <div class="grid-row text-center" style="margin-top: -10px;">
+                <div class="grid-item" style="margin: 5px;">
+                    <img src="https://placehold.co/600x400" class="img-fluid" alt="img" />
+                </div>
+                <div class="grid-item" style="margin: 5px;">
+                    <img src="https://placehold.co/600x400" class="img-fluid" alt="img" />
+                </div>
+                <div class="grid-item" style="margin: 5px;">
+                    <img src="https://placehold.co/600x400" class="img-fluid" alt="img" />
+                </div>
+                <div class="grid-item" style="margin: 5px;">
+                    <img src="https://placehold.co/600x400" class="img-fluid" alt="img" />
+                </div>
+            </div>
+            <div class="content-row" id="contact">
+                <div class="content-item" style="margin: 12px;">
+                    <form action="">
+                        <input type="text" placeholder="Name" class="form-control" required />
+                        <input type="text" placeholder="Subject" class="form-control" required />
+                        <input type="text" placeholder="Email" class="form-control" required />
+                        <textarea name="text" required placeholder="Your Message" class="form-control" rows="5"></textarea>
+                        <button class="btn btn-outline-white rounded" type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="content-item">
+                    <h6 class="sub-title">Contact Me</h6>
+                    <p>
+                       Call My Cell <a href="tel:580-309-0236"><i class="fa-solid fa-phone-volume"></i></a>
+                       <br>
+                       Email Me Directly <a href="mailto:stephenbrooks714@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    </p>
+                </div>
+            </div>
         </div>
     </main>
+    <footer class="footer-wrapper">
+        <h6>Made By Stephen Brooks for Clarusway</h6>
+        <p style="margin-top: -25px;">
+            <a href="#top" class="nav-link">Home</a> | <a href="#about" class="nav-link">About</a> | <a href="#projects" class="nav-link">Projects</a>
+        </p>
+    </footer>
 </body>
 </html>

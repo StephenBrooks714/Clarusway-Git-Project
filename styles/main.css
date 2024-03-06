@@ -9,6 +9,8 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    background-color: black;
+    color: white;
 }
 header {
     background: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center fixed;
@@ -80,6 +82,7 @@ a.nav-link {
 }
 .content-item {
     width: 100%;
+    margin: 20px;
 }
 h5 {
     font-size: 40px;
@@ -100,22 +103,72 @@ h5 {
 }
 .text-center {
     text-align: center;
+    justify-content: center;
 }
 .my-3 {
     margin-top: 50px;
     margin-bottom: -20px;
 }
 .card {
-    border: 1px solid black;
+    border: 1px solid white;
     padding: auto; 
     border-radius: 13px;
     margin: 30px;
     width: 100%;
     padding: 10px;
 }
+p {
+    font-size: 22px;
+}
+.card > p {
+    font-size: 19px;
+}
 .img-fluid {
     width: 100%;
     max-height: 450px;
+}
+a.btn {
+    text-decoration: none;
+}
+.btn {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+.btn-outline-white {
+    padding: 9px;
+}
+.btn-outline-white:hover {
+    background-color: white;
+    color: black;
+}
+button {
+    cursor: pointer;
+}
+button > .btn {
+    border: 1px solid white;
+    color: white;
+}
+button > .btn-outline-white {
+    border: 1px solid white;
+    color: white;
+}
+.rounded {
+    border-radius: 24px;
+}
+.form-control {
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    padding: 7px;
+}
+.footer-wrapper {
+    border-top: 1px solid white;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 @media(max-width: 950px){
     .grid-row {
@@ -132,12 +185,18 @@ h5 {
         margin-bottom: -60px;
     }
     .card {
-        border: 1px solid black;
+        border: 1px solid white;
         padding: auto; 
         border-radius: 13px;
         margin: 30px;
         width: 250px;
         padding: 10px;
+    }
+    .content-row {
+        margin-top: -20px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 60px;
     }
 }
 @media(max-width: 750px){
@@ -146,12 +205,6 @@ h5 {
         grid-template-columns: auto;
         padding: 20px;
         justify-content: center;
-    }
-    .content-row {
-        margin-top: -20px;
-        display: inline-block;
-        width: 100%;
-        margin-bottom: 60px;
     }
     .grid-item {
         padding: 20px;
