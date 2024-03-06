@@ -170,7 +170,38 @@ button > .btn-outline-white {
     padding-top: 20px;
     padding-bottom: 50px;
 }
+#nav2 {
+    display: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1a1919;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(70, 68, 68, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-content > a, .dropdown-link {
+    text-decoration: none;
+    color: white;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 @media(max-width: 950px){
+    #nav1 {
+        display: none;
+    }
+    #nav2 {
+        display: flex;
+    }
     .grid-row {
         display: grid;
         grid-template-columns: auto auto;
