@@ -57,6 +57,20 @@ a.nav-link {
     margin-left: auto;
     margin-right: auto;
 }
+.form-wrapper {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.col-7 {
+    width: 70%;
+    margin: 20px;
+}
+.col-5 {
+    width: 50%;
+    margin: 20px;
+}
 .grid-row {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -228,6 +242,20 @@ button > .btn-outline-white {
         display: inline-block;
         width: 100%;
         margin-bottom: 60px;
+    }
+    .form-wrapper {
+        margin-top: 40px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .col-7 {
+        width: 100%;
+        margin: 20px;
+    }
+    .col-5 {
+        width: 100%;
+        margin: 20px;
     }
 }
 @media(max-width: 750px){
